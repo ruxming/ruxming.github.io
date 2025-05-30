@@ -1,7 +1,7 @@
 {
   "version": 4,
   "routes": {
-    "/projects": {
+    "/music": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -14,8 +14,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/projects",
-      "dataRoute": "/projects.rsc",
+      "srcRoute": "/music",
+      "dataRoute": "/music.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -40,30 +40,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/",
       "dataRoute": "/index.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/music": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/music",
-      "dataRoute": "/music.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -120,13 +96,37 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
+    },
+    "/projects": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/projects",
+      "dataRoute": "/projects.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "e7833165d332173739ab2b6555af4315",
-    "previewModeSigningKey": "7300e977ac96c33150d420c865e87e3bb290c6abf012c5cdffc160ac1be93f94",
-    "previewModeEncryptionKey": "a72f90b4c9e58aea7473bafbb6a410f45cb55e00227fcbab1c0f2932391c3d4f"
+    "previewModeId": "efded87d4779a74ee2383d722c5c2cad",
+    "previewModeSigningKey": "5e98bf97cb65e1a265a97451cf2bacd3241d83bdda044b3af6d92a326a3ab7d5",
+    "previewModeEncryptionKey": "ddc48cdc605ec128b841cd4285e0c7b4a5cd4790e0c521bce51eb8061739cbe3"
   }
 }

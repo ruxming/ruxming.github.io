@@ -1,0 +1,50 @@
+# Build directory dependencies and cache
+_Build/node_modules/
+_Build/.next/
+_Build/out/
+_Build/npm-debug.log*
+_Build/yarn-debug.log*
+_Build/yarn-error.log*
+
+# Environment variables
+_Build/.env
+_Build/.env.local
+_Build/.env.development.local
+_Build/.env.test.local
+_Build/.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Temporary files
+*.tmp
+*.temp
+
+# Keep the built static files in root (these are the deployed files)
+# Don't ignore: index.html, _next/, gallery/, music/, projects/, resume/, images/

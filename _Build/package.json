@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build && npm run copy-to-root",
+    "start": "next start",
+    "copy-to-root": "powershell -ExecutionPolicy Bypass -File ./copy-to-root.ps1"
   },
   "dependencies": {
     "next": "^15.0.0",

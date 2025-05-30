@@ -7,6 +7,7 @@ const nextConfig = {
   },
   basePath: '',
   assetPrefix: '',
+  distDir: 'out',  // Output to 'out' directory for static export
 }
 
 module.exports = nextConfig

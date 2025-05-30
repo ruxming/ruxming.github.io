@@ -1,4 +1,4 @@
-// File: D:\Cata_Dev_Honor\_src_Catai\ruxming.github.io\src\app\gallery\page.js
+// File: D:\Cata_Dev_Honor\_src_Catai\ruxming.github.io\_Build\src\app\gallery\page.js
 import * as entry from '../../../../src/app/gallery/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

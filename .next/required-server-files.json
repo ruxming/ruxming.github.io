@@ -97,7 +97,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "D:\\Cata_Dev_Honor\\_src_Catai\\ruxming.github.io",
+    "outputFileTracingRoot": "D:\\Cata_Dev_Honor\\_src_Catai\\ruxming.github.io\\_Build",
     "experimental": {
       "nodeMiddleware": false,
       "cacheLife": {
@@ -280,10 +280,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.js",
     "turbopack": {
-      "root": "D:\\Cata_Dev_Honor\\_src_Catai\\ruxming.github.io"
+      "root": "D:\\Cata_Dev_Honor\\_src_Catai\\ruxming.github.io\\_Build"
     }
   },
-  "appDir": "D:\\Cata_Dev_Honor\\_src_Catai\\ruxming.github.io",
+  "appDir": "D:\\Cata_Dev_Honor\\_src_Catai\\ruxming.github.io\\_Build",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",
