@@ -6,7 +6,7 @@ const nextConfig = {
     unoptimized: true
   },
   basePath: '',
-  assetPrefix: '',
+  assetPrefix: '',  // Remove asset prefix for GitHub Pages
   distDir: 'out',  // Output to 'out' directory for static export
 }
 
